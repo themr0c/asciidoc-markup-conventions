@@ -1,0 +1,13 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: asciidoctor/docker-asciidoctor
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: asciidoctor --destination-dir=/documents/output --out-file=index.html asciidoc-markup-sample-doc/asciidoc-markup-samples.adoc
