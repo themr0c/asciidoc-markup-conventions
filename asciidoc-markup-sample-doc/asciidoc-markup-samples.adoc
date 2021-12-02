@@ -4,7 +4,7 @@
 
 = AsciiDoc Mark-up Quick Reference for Red{nbsp}Hat Documentation
 
-== Overview of AsciiDoc Markup Elements used in Red{nbsp}Hat Documentation
+== AsciiDoc markup elements used in Red{nbsp}Hat documentation
 
 [NOTE]
 ====
@@ -85,10 +85,10 @@ a|Use the [command]`oc get` command to get a list of services.
 |Emphasis for a term
 a|
 ....
-Use _this_ approach.
+In this release, the terms _worker machine_ and _compute machine_ are used interchangeably.
 ....
 
-a|Use _this_ approach.
+a|In this release, the terms _worker machine_ and _compute machine_ are used interchangeably.
 
 |Filenames or directory paths
 
@@ -245,19 +245,19 @@ a|Red{nbsp}Hat JBoss{nbsp}Data{nbsp}Grid
 |Reference to Red Hat guides
 a|
 ....
-See the JBoss EAP link:guide-url[_Getting Started Guide_] for more information.
+For more information, see the JBoss EAP link:https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.2/html/getting_started_guide/index[_Getting Started Guide_].
 ....
 
-a|See the JBoss EAP link:guide-url[_Getting Started Guide_] for more information.
+a|For more information, see the JBoss EAP link:https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.2/html/getting_started_guide/index[_Getting Started Guide_].
 
 |System or software variable to be replaced by the user
 a|
 ....
-Use the following command to roll back a deployment, specifying the deployment name: `oc rollback _deployment_`.
+Use the following command to roll back a deployment, specifying the deployment name: `oc rollback _<deployment>_`.
 ....
 
 a|
-Use the following command to roll back a deployment, specifying the deployment name: `oc rollback _deployment_`.
+Use the following command to roll back a deployment, specifying the deployment name: `oc rollback _<deployment>_`.
 
 
 |System or software configuration parameter or environment variable
@@ -288,7 +288,7 @@ Start the `mysql` service.
 |===
 
 
-== Additional Resources
+== Additional resources
 
 . link:http://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual].
 . link:http://asciidoctor.org/docs/asciidoc-writers-guide/[Asciidoctor Writer's Guide].
